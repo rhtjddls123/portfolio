@@ -10,7 +10,7 @@ const Header = () => {
           className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
         >
           <Image src="/logo.png" alt="logo" width={40} height={40} />
-          <span className="ml-3 text-xl">KSI-Portfolio</span>
+          <span className="ml-3 text-xl font-bold">KSI-Portfolio</span>
         </Link>
         <nav className="md:ml-4 flex flex-wrap items-center text-base justify-center">
           <Link href={"/AboutMe"} className="mr-5 hover:text-gray-900">
