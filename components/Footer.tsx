@@ -9,7 +9,7 @@ const Footer = () => {
           © 2024 KOSEONGIN All rights reserved.
         </p>
         <span className="inline-flex">
-          <Link href={"https://github.com/rhtjddls123"}>
+          <Link href={"https://github.com/rhtjddls123"} target="_blank">
             <Image
               src={"/github-mark.png"}
               alt="github-mark"
@@ -18,7 +18,7 @@ const Footer = () => {
               className="mr-4"
             />
           </Link>
-          <Link href={"https://velog.io/@jjjk0605"}>
+          <Link href={"https://velog.io/@jjjk0605"} target="_blank">
             <Image
               src={"/blog-mark.png"}
               alt="blog-mark"
@@ -27,7 +27,7 @@ const Footer = () => {
               className="mr-4"
             />
           </Link>
-          <Link href={"https://www.instagram.com/jjjk0605/"}>
+          <Link href={"https://www.instagram.com/jjjk0605/"} target="_blank">
             <Image
               src={"/instagram-mark.png"}
               alt="instagram-mark"
